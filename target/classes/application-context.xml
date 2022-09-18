@@ -17,7 +17,7 @@
 	</bean>
 	
 	<bean id="bookRepository" class="com.subrutin.repository.impl.BookRepositoryImpl"></bean>
-	<bean id="bookService" class="com.subrutin.repository.impl.BookRepositoryImpl">
+	<bean id="bookService" class="com.subrutin.service.impl.BookServiceImpl">
 		<property name="bookRepository" ref="bookRepository"></property>
 	</bean>
 </beans>
